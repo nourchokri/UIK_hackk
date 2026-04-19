@@ -1,6 +1,6 @@
 # Marbou7a — Backend
 
-FastAPI backend powering the Enda Wallet demo. It connects to a Supabase database and uses a Llama 3.1 70B LLM to deliver personalized financial advice and lessons to micro-entrepreneurs in Tunisia.
+FastAPI backend powering the Marbouha app demo. It connects to a Supabase database and uses a Llama 3.1 70B LLM to deliver personalized financial advice and lessons to micro-entrepreneurs in Tunisia.
 
 ---
 
