@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Tamwili",
+    "slug": "tamwili",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#00432c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#00432c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Tamwili a besoin d'accéder à votre caméra pour scanner les factures."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Tamwili a besoin d'accéder à votre galerie pour importer des factures."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+openai
+httpx
+supabase
+python-dotenv
+python-multipart
+paddleocr
+paddlepaddle
+pdfplumber
+aiofiles

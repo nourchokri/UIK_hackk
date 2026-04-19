@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm --version)",
+      "Bash(node -e \"const c = require\\('./backend/config'\\); console.log\\('isDemoMode:', c.isDemoMode, '| GLM model:', c.glmOcrModel, '| LLM model:', c.llmModel\\)\")",
+      "Bash(node -e \"const nf = require\\('/c/Users/ASUS/Desktop/wallet/backend/node_modules/node-fetch'\\); console.log\\(typeof nf.default || typeof nf\\)\")",
+      "Bash(npx rimraf:*)",
+      "Bash(rm -rf node_modules package-lock.json)"
+    ]
+  }
+}
